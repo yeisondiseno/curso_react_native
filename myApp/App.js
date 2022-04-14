@@ -10,6 +10,7 @@ const App = () => {
 			<Saludar name='Agustin' />
 			<Saludar name='Juana' />
 			<Saludar name='Natalia' />
+			<Saludar />
 
 			<LoginForm />
 		</View>
