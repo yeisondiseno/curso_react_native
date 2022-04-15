@@ -1,10 +1,12 @@
 import { SafeAreaView, Text } from 'react-native'
+// atoms
+import SaveAreaContainer from '../components/atoms/SaveAreaContainer'
 
 const Favorites = () => {
 	return (
-		<SafeAreaView>
+		<SaveAreaContainer>
 			<Text>Favorites</Text>
-		</SafeAreaView>
+		</SaveAreaContainer>
 	)
 }
 

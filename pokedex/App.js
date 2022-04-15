@@ -1,6 +1,5 @@
 import 'react-native-gesture-handler'
-import { StatusBar } from 'expo-status-bar'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet } from 'react-native'
 // navigation
 import { NavigationContainer } from '@react-navigation/native'
 import Navigation from './src/navigation/Navigation'
@@ -18,6 +17,6 @@ const styles = StyleSheet.create({
 		flex: 1,
 		backgroundColor: '#fff',
 		alignItems: 'center',
-		justifyContent: 'center',
-	},
+		justifyContent: 'center'
+	}
 })

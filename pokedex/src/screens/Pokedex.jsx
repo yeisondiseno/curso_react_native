@@ -1,10 +1,12 @@
 import { SafeAreaView, Text } from 'react-native'
+// atoms
+import SaveAreaContainer from '../components/atoms/SaveAreaContainer'
 
 const Pokedex = () => {
 	return (
-		<SafeAreaView>
+		<SaveAreaContainer>
 			<Text>Pokedex</Text>
-		</SafeAreaView>
+		</SaveAreaContainer>
 	)
 }
 

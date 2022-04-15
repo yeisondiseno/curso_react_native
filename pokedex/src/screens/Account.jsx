@@ -1,10 +1,12 @@
-import { SafeAreaView, Text } from 'react-native'
+import { Text } from 'react-native'
+// atoms
+import SaveAreaContainer from '../components/atoms/SaveAreaContainer'
 
 const Account = () => {
 	return (
-		<SafeAreaView>
+		<SaveAreaContainer>
 			<Text>Account</Text>
-		</SafeAreaView>
+		</SaveAreaContainer>
 	)
 }
 
