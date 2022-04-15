@@ -1,18 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native'
-// molecules
-import LoginForm from './src/components/molecules/LoginForm'
-import Saludar from './src/components/molecules/Saludar'
+import { StyleSheet } from 'react-native'
+// navigation
+import { NavigationContainer } from '@react-navigation/native'
+// import NavigationStack from './src/navigation/NavigationStack'
+import NavigationTab from './src/navigation/NavigationTab'
+// import navigationDrawer from './src/navigation/navigationDrawer'
 
 const App = () => {
 	return (
-		<View style={styles.container}>
-			<Text>Curso de React Native</Text>
-			<Saludar name='Agustin' />
-			<Saludar name='Juana' />
-			<Saludar name='Natalia' />
-
-			<LoginForm />
-		</View>
+		<NavigationContainer>
+			{/* <NavigationStack /> */}
+			<NavigationTab />
+			{/* <navigationDrawer /> */}
+		</NavigationContainer>
 	)
 }
 
