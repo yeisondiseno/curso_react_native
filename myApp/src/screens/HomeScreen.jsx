@@ -1,17 +1,17 @@
-import { View, Text, Button } from 'react-native'
+import { Text, Button, SafeAreaView } from 'react-native'
 
 const HomeScreen = props => {
 	const {
 		navigation: { navigate },
 	} = props
-	console.log('props Home', props)
+
 	// actions
 	const goToSettings = () => {
 		navigate('Settings')
 	}
 
 	return (
-		<View>
+		<SafeAreaView>
 			<Text>HomeScreen</Text>
 			<Text>HomeScreen</Text>
 			<Text>HomeScreen</Text>
@@ -19,7 +19,7 @@ const HomeScreen = props => {
 			<Text>HomeScreen</Text>
 			<Text>HomeScreen</Text>
 			<Button title='Ir a ajustes' onPress={() => goToSettings()} />
-		</View>
+		</SafeAreaView>
 	)
 }
 
